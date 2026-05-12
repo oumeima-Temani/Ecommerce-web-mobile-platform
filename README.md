@@ -1,34 +1,46 @@
-﻿# PetCare Microservices App
-PetCare Microservices App is a distributed system designed to manage pet care services through a scalable microservices architecture.
+﻿# E-Commerce Web & Mobile Platform
+This project is a multi-platform e-commerce application composed of a web platform and a mobile application. The system provides product management, shopping cart management, order processing, and user authentication functionalities.
+
+---
 
 ## Features
-- Microservices architecture with Spring Boot
-- API Gateway
-- Eureka Discovery Server
-- Config Server
-- Docker containerization
-- User authentication and role management
-- Appointment and veterinary management
+- Product management
+- Shopping cart management
+- Order management
+- User authentication
+- QR Code generation
+- PDF export services
+- Responsive web platform
+- Mobile application integration
+
+---
+
+## My Contribution
+I contributed specifically to:
+- Product management module
+- Shopping cart management module
+
+---
 
 ## Tech Stack
-- Java
-- Spring Boot
-- Spring Cloud
-- Eureka
-- API Gateway
-- Docker
+
+### Web Application
+- Symfony
+- PHP
 - MySQL
+- Twig
+- Docker
 
-## Microservices
-- UserMicroservice
-- Pet_Care_Appointment
-- Pet_Care_Animall
-- Pet_Care_Service
-- Pet_Care_veterinaire
-- pet_care_alimentation
-- pet_care_event
+### Mobile Application
+- Java
+- Codename One
 
-## Run Project
+---
 
-```bash
-docker-compose up --build
+## Architecture
+The project is divided into:
+- Web application (Symfony)
+- Mobile application (Java / Codename One)
+- Database layer (MySQL with Doctrine ORM integration)
+- Authentication & services
+
